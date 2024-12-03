@@ -1,0 +1,135 @@
+/* Основной стиль */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'KoHo', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #D32F2F; /* Красный цвет, напоминающий японскую символику */
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #D32F2F;
+}
+
+main {
+    padding: 40px 10%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+.products {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.product p {
+    font-size: 18px;
+    color: #D32F2F;
+}
+
+.product button {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
